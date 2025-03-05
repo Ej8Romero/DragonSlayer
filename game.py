@@ -77,14 +77,12 @@ def reward_choice():
 
     print(f"Your final stats are: Attack: {player_attack}, Defense: {player_defense}")
 
-print(r"""  __ _               _   _            __                              
-  / _| |             | | | |          |  _ \                             
- | (_ | | _ _ _   _  | || |_   __  | |  | |_ _ _ _  _ _  __  _ __  
-  \_ \| |/ ` | | | | | _| '_ \ / _ \ | |  | | '_/ _` |/ _` |/ _ \| ' \ 
-  _) | | (| | || | | || | | |  _/ | || | | | (| | (| | () | | | |
- |__/||\_,|\_, |  \|| ||\_| |_/||  \_,|\_, |\_/|| |_|
-                  _/ |                                     _/ |            
-                 |_/                                     |_/             """)
+print(r"""    ___                             __ _                       
+   /   \_ __ __ _  __ _  ___  _ __ / _\ | __ _ _   _  ___ _ __ 
+  / /\ / '__/ _` |/ _` |/ _ \| '_ \\ \| |/ _` | | | |/ _ \ '__|
+ / /_//| | | (_| | (_| | (_) | | | |\ \ | (_| | |_| |  __/ |   
+/___,' |_|  \__,_|\__, |\___/|_| |_\__/_|\__,_|\__, |\___|_|   
+                  |___/                        |___/           """)
 time.sleep(4)
 print("")
 print("")
@@ -117,7 +115,7 @@ elif choiceA == 3:
     player_hp += 10  
 elif choiceA == 69:
     print('You recall the existence of the family extendo, the mighty blicky. You take grip of the reliable 9mm and get +100 attack')
-    attack += 100  
+    player_attack += 100  
 else:
     print('You end up just going back to bed. The End')
 time.sleep(4)
